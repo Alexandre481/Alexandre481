@@ -1,0 +1,223 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled7.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyM3TKiIK+MOHxfsmrRK2D6k",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Alexandre481/Alexandre481/blob/main/Exerc%C3%ADcios%20Aula%204%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "KzmVH3DDDgUP"
+      },
+      "source": [
+        "Faça um programa "
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 129
+        },
+        "id": "TpNX-2VNE606",
+        "outputId": "a279919a-e1d7-4bd5-bcf8-fdbda1f0d306"
+      },
+      "source": [
+        "a=int(input(\"Digite um numero:\"))\n",
+        "if a%2 == 0\n",
+        "    print(\"O numero é par\")\n",
+        "else:\n",
+        "     print (\"O numero é impar\")"
+      ],
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-23-af903aab8284>\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    if a%2 == 0\u001b[0m\n\u001b[0m               ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "rqlnNIaWGn8H"
+      },
+      "source": [
+        ""
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uaQPYj0YGnm4",
+        "outputId": "a738d524-7db3-4e79-ed3b-0854dfa8df55"
+      },
+      "source": [
+        "numero=float(input(\"Digite um numero:\"))\n",
+        "if numero== 0:\n",
+        "  print(\"numero neutro\")\n",
+        "\n",
+        "else:\n",
+        "  if numero>0:\n",
+        "      print(\"numero positivo\")\n",
+        "  else:\n",
+        "    print(\"numero negativo\")\n"
+      ],
+      "execution_count": 36,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Digite um numero:0\n",
+            "numero neutro\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "nqj6HRQiLYAu"
+      },
+      "source": [
+        ""
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9Jq9o1tgLRZv",
+        "outputId": "e67fbd91-d8c2-467d-eed9-c88dbfc038b1"
+      },
+      "source": [
+        "numero=float(input(\"Digite um numero:\"))\n",
+        "if numero== 0:\n",
+        "  print(\"numero neutro\")\n",
+        "elif numero >0:\n",
+        "  print(\"numero positivo\")\n",
+        "else:\n",
+        "  print(\"numero negativo\")"
+      ],
+      "execution_count": 40,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Digite um numero:-1\n",
+            "numero negativo\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "i2ztX64FOMt9"
+      },
+      "source": [
+        ""
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6LsexGQSONHe",
+        "outputId": "4967b8fa-7692-4b34-c91a-aa58072603dd"
+      },
+      "source": [
+        "a=(input(\"Digite o primeiro numero:\"))\n",
+        "b=(input(\"Digite o segundo numero:\"))\n",
+        "if a > b :\n",
+        "  print(f\"O maior numero é :{a}\")\n",
+        "if a < b :\n",
+        "  print(f\"O maior numero é :{b}\")\n",
+        "elif b == a:\n",
+        "  print  (f\"Os numeros:{a} e {b} são iguais\")"
+      ],
+      "execution_count": 62,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Digite o primeiro numero:1\n",
+            "Digite o segundo numero:2\n",
+            "O maior numero é :2\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cCZzev0_Qd3x",
+        "outputId": "45ead6e3-1b2c-4d69-872b-b691f13318d7"
+      },
+      "source": [
+        "f=(\"F\")\n",
+        "h=(\"M\")\n",
+        "\n",
+        "d=(input(\"Digite F para Feminino ou M para Masculino:\"))\n",
+        "if d.upper()==(\"F\"):\n",
+        "  print(\"Feminino\")\n",
+        "elif d.upper()==(\"M\"):\n",
+        "  print(\"Masculino\")  \n",
+        "else:\n",
+        "  print(\"Sexo Biológico inválido.\")"
+      ],
+      "execution_count": 60,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Digite F para Feminino ou M para Masculino:b\n",
+            "Sexo Biológico inválido.\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
